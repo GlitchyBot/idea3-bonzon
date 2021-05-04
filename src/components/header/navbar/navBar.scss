@@ -1,0 +1,42 @@
+.navbarContainer {
+  background-color: #e9b6fc;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  .logo {
+    justify-content: flex-start;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .navbarMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+
+    .navbarItem {
+      a {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 10px 12px;
+        text-decoration: none;
+
+        .cartIcon {
+          height: 30px;
+        }
+      }
+    }
+  }
+}
